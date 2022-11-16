@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+  <div class="container">
+    <form id="signin-ui">
+        <div class="title"><span></span> Sign-in</div>
+      <div class="user-details">
+        <div class="user-input">
+          <label for="name">Name</label>
+          <input type="text" id = "name" placeholder="Enter your username">
+        </div>
+
+        <div class="user-input">
+          <label for="password">Password</label>
+          <input type="password" id = "password" placeholder="Enter your password">
+        </div>
+      </div>
+
+        <div id="incorrect-ui" style="display: none;">
+            Incorrect login details, Try again.
+        </div>
+
+        <div id="exit-ui" style="display: none;">
+            Thank you for Banking with us, Sign-in if you want perform another Transcation
+        </div>
+
+        <button type="submit" class="sign-btn">Sign in</button>
+        <div>
+          <button class="createacc" >Create Account</button>
+        </div>
+      </form>
+    <div>
+      <div id="banned-ui" style="display: none;">
+        You have tried 4 times, and you are now banned from using this service
+      </div>
+
+      <script src="signin.js"></script>
+</body>
+</html>

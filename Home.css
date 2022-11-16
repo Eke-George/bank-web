@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    height: 100vh;
+    padding: 20px;
+    background:url("ales-nesetril-ex_p4AaBxbs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+button{
+    float: right;
+    margin-left: 20px;
+    float: right;
+    height: 40px;
+    width: 10%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(87, 87, 90);
+    color: white;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px black;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    color: rgb(87, 87, 90);
+    font-weight: bolder;
+    font-size: 50px;
+    text-decoration: wavy;
+    text-shadow: 0 3px 2px black;
+}

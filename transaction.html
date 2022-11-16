@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="transaction.css">
+</head>
+<body>
+    <div class="container">
+        <marquee behavior="" direction="left"> Thanks for your patronage</marquee>
+    
+        <div class="whole stretch">
+            <div class="get"></div>
+        <form id="transcation-ui"  style="background: rgba(0, 128, 0, 0);">
+            <!-- <h4>Select transaction</h4> -->
+    
+            <div class="trans">
+                <div class="tra"  style="background:rgb(103, 169, 189); grid-column: span 2;"><input type="radio" name = "transaction" id="checkBalance"> Check Account Balance</div>
+                <div class="tra" style="background:rgb(179, 165, 115);grid-row: span 2;"><input type="radio" name = "transaction" id="withdraw" value="Male"> Withdraw</div>
+                <div class="tra" style="background:rgb(181, 133, 186);"><input type="radio" name = "transaction" id="deposit" value="Male">Deposit</div>
+                <div class="tra" style="background:cyan;"><input type="radio" name = "transaction" id="Transfer" value="Male"> Transfer</div>
+                <div class="tra" style="background:rgb(70, 68, 68);grid-column:span 3"><input type="radio" name = "transaction" id="sign-out" value="Male"> Sign-out</div>
+            </div>
+    
+            
+            <button type="submit" class="fish">Submit</button>
+            
+        </form>
+
+        </div>
+
+    <div  style="background: rgba(0, 128, 0, 0);"></div>
+    <div class="stretch" id="transactionMessage-ui" style="background: rgba(186, 222, 222, 0);">
+        
+    </div>
+</div>
+
+
+
+    <script src="transaction.js"></script>
+</body>
+</html>

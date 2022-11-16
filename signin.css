@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(180deg, rgb(87, 87, 90), black);
+    
+}
+.container{
+    background: white;
+    width: 100%;
+    max-width: 750px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    height: auto;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 10px;
+    color: black;
+
+}
+.title span::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background: rgb(87, 87, 90);
+    left: 0;
+    bottom: 0;
+    width: 20px;
+}
+/* .container .title span::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: linear-gradient(120deg,cyan,blue);
+    width: 28px;
+    left: 0;
+    bottom: 0;
+    
+} */
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.user-input{
+    width: calc(50% - 20px );
+    /* background: red; */
+    margin-bottom: 15px;
+}
+.user-input input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(87, 87, 90);
+    padding: 15px;
+    box-shadow: 0 3px 2px rgb(87, 87, 90);
+    border-bottom: 3px solid rgb(87, 87, 90);
+    font-size: medium;
+    transition: all 0.5s ease;
+}
+.sign-btn{
+    float: right;
+    height: 40px;
+    width: 10%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-weight: 700;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.createacc{
+    height: 40px;
+    width: 16%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    font-weight: 700;
+    color: white;
+}
+#incorrect-ui{
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#banned-ui{
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 1px 2px 2px black;
+
+}
